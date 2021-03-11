@@ -61,5 +61,5 @@ else
 
 
 echo $html;
- header('location:/sparks-donation-site/index.php');?>
+ header('location:index.php');?>
 
