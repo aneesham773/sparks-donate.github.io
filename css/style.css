@@ -24,6 +24,13 @@ body {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-position: center;
+    
+    
 }
 
 .clearfix {zoom: 1;}
@@ -41,7 +48,7 @@ body {
 
 
 .row {
-    max-width: 1140px;
+    max-width:auto;
     margin: 0 auto;
 }
 
@@ -88,7 +95,7 @@ h2:after {
     height: 2px;
     background-color: #e67e22;
     content: " ";
-    width: 100px;
+    width: auto;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -150,15 +157,18 @@ a:active {
 header {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg.jpg);
-    background-size: cover;
-    background-position: center;
+    
+    width: auto;
     height: 100vh;
     background-attachment: fixed;
+    margin:0;
+    padding: 0;
+    
 }
 
 .hero-text-box {
     position: absolute;
-    width: 1140px;
+    width: auto;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -172,12 +182,14 @@ header {
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 55px;
+    margin-top: 60px;
+    margin-right: 620px;
+    
 }
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .main-nav li a:link,
@@ -333,10 +345,6 @@ cite img {
 }
 
 
-/* ----------------------------------------------- */
-/* SIGN UP */
-/* ----------------------------------------------- */
-
 
 
 /* ----------------------------------------------- */
@@ -427,9 +435,9 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
-@media(max-width:700px){
+@media(max-width:400px){
     nav{
-      height: 100vh;
+      height: 200vh;
       position: fixed;
       top: 0;
       right: 0;
@@ -440,10 +448,17 @@ footer p {
       align-items: center;
       transition: top 1s ease;
       display: none;
+      width: auto;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
     }
     html,body{
-      overflow: auto;
+      
       overflow-x: hidden;
+      width:auto;
+       background-attachment: fixed;
+       background-position: auto;
     }
    
     
