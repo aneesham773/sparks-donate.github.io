@@ -28,7 +28,7 @@ body {
     margin: 0;
     padding: 0;
     width: auto;
-    background-position: center;
+    
     
     
 }
@@ -163,6 +163,7 @@ header {
     background-attachment: fixed;
     margin:0;
     padding: 0;
+    background-position:center;
     
 }
 
