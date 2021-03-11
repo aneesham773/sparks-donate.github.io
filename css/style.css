@@ -427,5 +427,27 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
+@media(max-width:700px){
+    nav{
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: top 1s ease;
+      display: none;
+    }
+    html,body{
+      overflow: auto;
+      overflow-x: hidden;
+    }
+   
+    
+
+  }
 
 
